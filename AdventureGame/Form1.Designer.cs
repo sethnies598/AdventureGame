@@ -103,6 +103,7 @@
             this.Controls.Add(this.redButton);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

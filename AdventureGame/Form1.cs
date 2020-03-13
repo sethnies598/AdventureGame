@@ -12,6 +12,8 @@ namespace AdventureGame
 {
     public partial class Form1 : Form
     {
+        //Boolean mKey;
+
         int scene = 0;
         Random randGen = new Random();
 
@@ -93,6 +95,22 @@ namespace AdventureGame
         private void NextButton_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.U)
+            {
+                
+            }
+            else if (e.KeyCode == Keys.J)
+            {
+
+            }
+            else if (e.KeyCode == Keys.M)
+            {
+
+            }
         }
     }
 }
